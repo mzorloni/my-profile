@@ -1,0 +1,91 @@
+body {
+    background-image: url(images/SWO.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bebas Neue', bold, cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile-picture{
+    width: 400px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(157, 66, 29);
+}
+
+a:hover {
+    color: rgb(235, 107, 28);
+}
+
+div{
+padding:30px;
+background: rgb(red, green, rgb(88, 88, 100));
+margin:80px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.569);
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(157, 66, 29);
+}
+
+.btn-blue{
+    background-color: rgb(121, 111, 111);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;  
+    display: flex;
+    font-size: 70px;
+    font-weight: 400;
+    justify-content: space-evenly;    
+}
+
+.social{
+    height: 150px;
+}
+
+@media(max-width: 950px) {
+    .container{
+        width: 700px;
+    }
+    .profile-picture{
+        width: 300px;
+    }
+}
+
+@media(max-width: 500px) {
+    .container{
+        width: 450px;
+    }
+
+    .profile-picture {
+        width: 200px;
+    }
+}
+
+.followme{
+    margin: 0px;
+}
